@@ -15,4 +15,5 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib) # For shared librari
 # Include sub-projects.
 add_subdirectory ("sender")
 add_subdirectory ("receiver")
-add_subdirectory ("handler")
+#add_subdirectory ("handler")
+add_subdirectory ("rtp-server")
